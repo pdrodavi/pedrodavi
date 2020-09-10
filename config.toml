@@ -1,0 +1,53 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Pedro Davi"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Enable to show reading time in minutes for posts
+  showReadingTime = false
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  rssFullText = false
+
+[languages]
+  [languages.en]
+    title = "Pedro Davi"
+    subtitle = "Minha área tecnológica"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar mais"
+    writtenBy = "Escrito por"
+    readMore = "Ler mais"
+    readOtherPosts = "Leia outros posts"
+    newerPosts = "Posts recentes"
+    olderPosts = "Posts antigos"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "pedro davi"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
