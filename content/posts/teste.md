@@ -9,7 +9,7 @@ keywords:
   - teste
 autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: /img/uploads/hello.jpg
-coverImage: /img/uploads/hello.jpg
+thumbnailImage: /img/hello.jpg
+coverImage: /img/hello.jpg
 ---
 teste teste teste teste
