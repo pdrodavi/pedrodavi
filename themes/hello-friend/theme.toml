@@ -3,7 +3,7 @@ features = ["blog", "shortcode", "syntax Highlighting"]
 homepage = "https://github.com/panr/hugo-theme-hello-friend/"
 license = "MIT"
 licenselink = "https://github.com/panr/hugo-theme-hello-friend/blob/master/LICENSE.md"
-min_version = 0.74
+min_version = 0.50
 name = "hello-friend"
 tags = [
   "blog",
