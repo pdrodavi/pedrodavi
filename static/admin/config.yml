@@ -59,7 +59,7 @@ collections:
         widget: "image"
 
       - label: "Cover Image"
-        name: "coverImage"
+        name: "cover"
         required: false
         widget: "image"
         default: "/images/uploads/cover-post.jpg"
