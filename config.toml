@@ -10,7 +10,7 @@ paginate = 5
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
   # Enable to show reading time in minutes for posts
   showReadingTime = false
 
@@ -44,8 +44,12 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Início"
+        url = "/"
+      [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "Sobre"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "showcase"
