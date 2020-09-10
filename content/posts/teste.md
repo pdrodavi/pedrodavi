@@ -10,6 +10,6 @@ keywords:
 autoThumbnailImage: false
 thumbnailImagePosition: top
 thumbnailImage: /img/hello.jpg
-coverImage: /img/hello.jpg
+cover: /img/hello.jpg
 ---
 teste teste teste teste
