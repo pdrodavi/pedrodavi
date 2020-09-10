@@ -8,7 +8,7 @@ tags:
 keywords:
   - teste
 autoThumbnailImage: false
-thumbnailImagePosition: top
+thumbnailImagePosition: left
 cover: /img/hello.jpg
 ---
 teste teste teste teste
